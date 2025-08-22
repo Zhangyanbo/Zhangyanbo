@@ -57,7 +57,8 @@ markup:
       unsafe: true
   highlight:
     lineNos: true
-    style: evergarden
+    noClasses: true
+    style: dracula
 security:
   _merge: deep
 sitemap:
