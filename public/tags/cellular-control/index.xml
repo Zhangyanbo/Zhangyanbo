@@ -5,7 +5,7 @@
     <link>http://localhost:1313/tags/cellular-control/</link>
       <atom:link href="http://localhost:1313/tags/cellular-control/index.xml" rel="self" type="application/rss+xml" />
     <description>Cellular Control</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 11 Aug 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu_982c5d63a71b2961.png</url>
       <title>Cellular Control</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Giving Simulated Cells a Voice: Evolving Prompt-to-Intervention Models for Cellular Control</title>
       <link>http://localhost:1313/publication/give-cell-voice/</link>
-      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publication/give-cell-voice/</guid>
       <description>&lt;!-- 
 This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
