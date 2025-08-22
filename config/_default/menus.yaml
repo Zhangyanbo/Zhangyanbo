@@ -8,7 +8,7 @@ main:
     url: /
     weight: 10
   - name: Papers
-    pageRef: /#papers
+    url: /#papers
     weight: 11
   - name: Blog
     pageRef: blog/
