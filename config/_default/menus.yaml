@@ -11,7 +11,7 @@ main:
     url: /#papers
     weight: 11
   - name: Blog
-    pageRef: blog/
+    url: /blog/
     weight: 15
   # - name: Talks
   #   url: /#talks
