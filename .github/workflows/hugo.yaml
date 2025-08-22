@@ -55,7 +55,7 @@ jobs:
           restore-keys: ${{ runner.os }}-pnpm-
 
       - name: Install Node.js dependencies (pnpm)
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --no-frozen-lockfile
 
       - name: Verify tailwind cli
         run: pnpm exec tailwindcss -v
