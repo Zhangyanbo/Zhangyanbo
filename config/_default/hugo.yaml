@@ -17,6 +17,9 @@ hasCJKLanguage: true
 defaultContentLanguageInSubdir: true
 removePathAccents: true
 
+canonifyURLs: true
+relativeURLs: false
+
 ############################
 ## ADVANCED
 ############################
