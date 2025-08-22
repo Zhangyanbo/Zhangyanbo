@@ -40,7 +40,10 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Nontrivial. This work is licensed under {license}'
+    notice: |
+      © {year} Nontrivial. This work is licensed under {license}
+      <br>
+      <a href="https://www.flaticon.com/free-icons/yinyang" title="yinyang icons">Yinyang icons created by Park Jisun - Flaticon</a>
     license:
       enable: true
       allow_derivatives: false
