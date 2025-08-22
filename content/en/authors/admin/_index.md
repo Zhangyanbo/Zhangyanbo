@@ -57,4 +57,4 @@ education:
 
 ## About Me
 
-working on this...
+I'm currently a Postdoc Scholar at Tufts University, where I investigate the intersection of intelligence theory and practical machine learning methods.
