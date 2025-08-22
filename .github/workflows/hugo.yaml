@@ -38,6 +38,27 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.14.0
+      # （可选）缓存 pnpm store，加速构建
+      - name: Get pnpm store path
+        id: pnpm-store
+        run: echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+      - name: Cache pnpm store
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.pnpm-store.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('pnpm-lock.yaml') }}
+          restore-keys: ${{ runner.os }}-pnpm-
+
+      - name: Install Node.js dependencies (pnpm)
+        run: pnpm install --frozen-lockfile
+
+      - name: Verify tailwind cli
+        run: pnpm exec tailwindcss -v
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
@@ -63,9 +84,9 @@ jobs:
           echo "Go: $(go version)"
           echo "Hugo: $(hugo version)"
           echo "Node.js: $(node --version)"
-      - name: Install Node.js dependencies
-        run: |
-          [[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true
+      # - name: Install Node.js dependencies
+      #   run: |
+      #     [[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true
       - name: Configure Git
         run: |
           git config core.quotepath false
