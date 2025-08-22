@@ -56,7 +56,8 @@ markup:
     renderer:
       unsafe: true
   highlight:
-    lineNos: false
+    lineNos: true
+    style: evergarden
 security:
   _merge: deep
 sitemap:
