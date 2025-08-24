@@ -42,9 +42,11 @@ outputs:
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
-  quality: 90
+  quality: 100
   anchor: smart
   hint: picture
+  brightness: 0
+  gamma: 1
 timeout: 600000
 taxonomies:
   author: authors
@@ -55,6 +57,9 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    renderHooks:
+      image:
+        useEmbedded: always
   highlight:
     lineNos: true
     noClasses: true
