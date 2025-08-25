@@ -4,6 +4,7 @@ summary: How the Implicit Function Theorem Offers a Shortcut for Neural Networks
 date: 2025-08-21
 authors:
   - admin
+  - gemini
 math: true
 tags:
   - Machine Learning
@@ -11,8 +12,6 @@ tags:
   - Optimization
 image:
 ---
-
-> Note: This article is co-written with Geimini 2.5 Pro
 
 When we talk about deep learning, the first image that comes to mind is likely a neural network stacked with layers. From AlexNet's 8 layers to ResNet's 152 layers, and now Transformer variants with thousands of layers, a model's "depth" seems to have become synonymous with its power. This "stacking" philosophy is simple and intuitive: just like building a skyscraper, the more floors you have, the more complex the functions and the wider the view.
 

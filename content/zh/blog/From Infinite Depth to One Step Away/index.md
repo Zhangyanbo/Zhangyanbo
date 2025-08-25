@@ -4,6 +4,7 @@ summary: 隐函数定理如何为神经网络「抄近道」
 date: 2025-08-21
 authors:
   - admin
+  - gemini
 math: true
 tags:
   - Machine Learning
