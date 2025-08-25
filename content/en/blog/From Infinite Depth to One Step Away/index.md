@@ -3,8 +3,8 @@ title: From Infinite Depth to One Step Away
 summary: How the Implicit Function Theorem Offers a Shortcut for Neural Networks
 date: 2025-08-21
 authors:
-  - admin
   - gemini
+  - admin
 math: true
 tags:
   - Machine Learning

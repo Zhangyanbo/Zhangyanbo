@@ -3,8 +3,8 @@ title: 从「无限深」到「一步之遥」
 summary: 隐函数定理如何为神经网络「抄近道」
 date: 2025-08-21
 authors:
-  - admin
   - gemini
+  - admin
 math: true
 tags:
   - Machine Learning
