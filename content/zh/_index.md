@@ -36,7 +36,7 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '📚 我的研究'
       subtitle: ''
       text: |-
         What is intelligence? Are there fundamental elements that give rise to intelligent behavior? My research explores the intersection of intelligence theory and practical machine learning methods. I investigate foundational questions about self-reference, consciousness, and recursion, while also developing novel architectures and algorithms that better capture the complexities of intelligent systems.
@@ -45,7 +45,7 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: 主要论文
       filters:
         folders:
           - publication
@@ -55,7 +55,7 @@ sections:
       columns: 2
   - block: collection
     content:
-      title: Recent Publications
+      title: 近期文章
       text: ""
       filters:
         folders:

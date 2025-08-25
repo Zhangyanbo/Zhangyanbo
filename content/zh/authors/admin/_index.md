@@ -40,21 +40,21 @@ profiles:
     url: https://scholar.google.com/citations?user=yByYe24AAAAJ&hl=zh-CN
 
 interests:
-  - Artificial Intelligence
-  - Original of Intelligence
-  - Fundamental Principles of Intelligence
+  - 人工智能
+  - 智能的起源
+  - 智能的基本原理
 
 education:
-  - area: PhD Complex Systems
+  - area: PhD, Complex Systems
     institution: Arizona State University
     date_start: 2018-09-01
     date_end: 2023-08-31
-  - area: BSc Condensed Matter Physics
-    institution: University of Science and Technology of China
+  - area: BSc, 凝聚态物理学
+    institution: 中国科学技术大学
     date_start: 2013-09-01
     date_end: 2018-06-01
 ---
 
 ## About Me
 
-I'm currently a Postdoc Scholar at Tufts University, where I investigate the intersection of intelligence theory and practical machine learning methods.
+Tufts University 博士后研究员，专注于智能理论与实际机器学习方法的交叉领域。
