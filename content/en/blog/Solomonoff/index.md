@@ -165,11 +165,11 @@ Our task is essentially to predict the next element $y_n$ of the sequence.
 
 Using the framework of Solomonoff Induction, to predict $y_n$, we are actually looking for a theory $\nu^*$ that best generates the current historical sequence $D$. According to the formula derived earlier, the optimal theory $\nu^*$ must satisfy two conditions simultaneously: strong explanatory power (high probability) and sufficient simplicity (low complexity). We apply the formula of $\xi_U$, but for simplicity, we only look for that single optimal $\nu^*$:
 $$
-\nu^* = \arg\max_\nu \underbrace{2^{-K(\nu)}}{\text{Simplicity}} \cdot \underbrace{\nu(D)}{\text{Explanatory Power}}
+\nu^* = \arg\max_\nu \underbrace{2^{-K(\nu)}}_{\text{Simplicity}} \cdot \underbrace{\nu(D)}_{\text{Explanatory Power}}
 $$
 To facilitate calculation, we take the negative logarithm of both sides. The original "maximize probability" problem instantly becomes a familiar "minimize loss" problem:
 $$
-\text{Loss} = \underbrace{-\log_2 \nu(D)}{\text{Reconstruction Error}} + \underbrace{K(\nu)}{\text{Model Complexity}}
+\text{Loss} = \underbrace{-\log_2 \nu(D)}_{\text{Reconstruction Error}} + \underbrace{K(\nu)}_{\text{Model Complexity}}
 $$
 Look! This is not just a mathematical transformation; this is the manifestation of physical meaning:
 
