@@ -147,7 +147,7 @@ $\xi$ 最强大的地方在于它的**通用性**和**收敛性**。可以说，
 假设环境的真实分布是 $\mu$（只要它是可计算的），那么随着观测数据的增加，所罗门诺夫归纳 $\xi$ 的预测结果，将以极快的速度收敛到真实分布 $\mu$。
 
 $$
-\sum_{t=1}^{\infty} \mathbb{E} \left[ \sum_{x_t} \left(\xi(x_t|x_{<t}) - \mu(x_t|x_{<t}) \right)^2 \right] \le K(\mu) \ln 2 + \mathcal{O}(1)
+\sum_{t=1}^{\infty} \mathbb{E} \left[ \sum_{x_t} \left(\xi(x_t|x_{\lt t}) - \mu(x_t|x_{\lt t}) \right)^2 \right] \le K(\mu) \ln 2 + \mathcal{O}(1)
 $$
 
 这个不等式告诉我们：**预测的总误差是有上限的**，这个上限仅取决于环境本身的复杂度 $K(\mu)$。

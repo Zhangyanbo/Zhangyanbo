@@ -124,7 +124,7 @@ The most powerful aspect of $\xi$ lies in its universality and convergence. It c
 Assuming the true distribution of the environment is $\mu$ (as long as it is computable), then with the increase of observed data, the prediction result of Solomonoff Induction $\xi$ will converge to the true distribution $\mu$ at an extremely fast speed.
 
 $$
-\sum_{t=1}^{\infty} \mathbb{E} \left[ \sum_{x_t} \left( \xi(x_t|x_{<t}) - \mu(x_t|x_{<t}) \right)^2 \right] \le K(\mu) \ln 2 + \mathcal{O}(1)
+\sum_{t=1}^{\infty} \mathbb{E} \left[ \sum_{x_t} \left( \xi(x_t|x_{\lt t}) - \mu(x_t|x_{\lt t}) \right)^2 \right] \le K(\mu) \ln 2 + \mathcal{O}(1)
 $$
 
 This inequality tells us: the total error of prediction has an upper limit, and this upper limit depends only on the complexity of the environment itself, $K(\mu)$.
