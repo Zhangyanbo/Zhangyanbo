@@ -10,7 +10,7 @@ tags:
   - AGI
   - Solomonoff Induction
   - 
-image:
+image: "cover.png"
 ---
 
 The time is late 2025. "Artificial General Intelligence" (AGI), once viewed as a distant sci-fi concept, is no longer empty talk; it has become a weighty reality resting on everyone's desk.

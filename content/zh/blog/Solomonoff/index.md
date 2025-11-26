@@ -10,7 +10,7 @@ tags:
   - AGI
   - Solomonoff Induction
   - 
-image:
+image: "cover.png"
 ---
 
 时间行至 2025 年底，那个曾被视为遥远科幻概念的「通用人工智能」（AGI），如今已不再是空谈，而是成为了摆在每个人案头沉甸甸的现实。
