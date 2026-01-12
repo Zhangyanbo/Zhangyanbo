@@ -10,9 +10,6 @@ tags:
   - AI
 image:
 ---
-Here is the translation of your essay into English.
-
----
 
 Looking back at the development of artificial intelligence in recent years, Diffusion Models and Transformers stand out as two undisputed milestones. Notably, the core intuitions behind both technologies originated outside the field of AI: Diffusion Models draw from research on particle diffusion and reverse diffusion in non-equilibrium statistical physics, while the attention mechanism—the foundation of the Transformer—corresponds directly to the process of selective attention in human cognitive psychology.
 
