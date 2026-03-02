@@ -15,7 +15,7 @@ Complex Systems, AI, Science for AI
 
 ---
 
-## Agent Skills (toolbox)
+## Agent Skills
 
 A growing set of small, composable “skills” for agent workflows.
 
