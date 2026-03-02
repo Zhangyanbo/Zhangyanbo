@@ -1,5 +1,5 @@
 [![Lab](https://img.shields.io/badge/Allen%20Discovery%20Center%20%40%20Tufts-111111?style=flat)](https://drmichaellevin.org/people/labmembers-current.html)
-[![X](https://img.shields.io/badge/X-%40YanboZhang3-111111?style=flat&logo=x)](https://x.com/YanboZhang3)
+[![X](https://img.shields.io/badge/YanboZhang3-111111?style=flat&logo=x)](https://x.com/YanboZhang3)
 
 Complex Systems, AI, Science for AI
 
