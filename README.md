@@ -17,7 +17,7 @@ Complex Systems, AI, Science for AI
 
 ## Agent Skills
 
-A growing set of small, composable “skills” for agent workflows.
+Skills for agent workflows. See full collection here: [[skills]](https://github.com/stars/Zhangyanbo/lists/skills)
 
 **Vibe Research**
 - **vibe-paper-writing** — Academic paper writing skill (chat logs/emails/notes → LaTeX).  
